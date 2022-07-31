@@ -35,6 +35,7 @@ Enter Your Choice ↓
     else:
         print("Enter Right Choice")
         time.sleep(3)
+        os.system('cls')
         menu()
 
 
