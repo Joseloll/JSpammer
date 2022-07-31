@@ -48,7 +48,7 @@ def spammer():
     time.sleep(5)
     
     for i in range(0,int(spam)):
-        pyautogui.typewrite('message')
+        pyautogui.typewrite(message + '\n')
 
 
 def txt():
