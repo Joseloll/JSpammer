@@ -48,13 +48,13 @@ def spammer():
     time.sleep(5)
     
     for i in range(0,int(spam)):
-        pyautogui.typewrite(message + '\n')
+        pyautogui.typewrite('message')
 
 
 def txt():
      print(Fore.GREEN + 'This Is A Text Spammer You Can Open A Txt File And Spam With It')
-     file = input(Fore.CYAN + "Enter The Name Of The Txt File:")
-     file = open(file, "r")
+     name = input(Fore.CYAN + "Enter The Name Of The Txt File:")
+     file = open(name, "r")
      print(Fore.YELLOW + "Please Wait 5 Secs Before The Spam Starts")
      time.sleep(5)
      for line in file:
